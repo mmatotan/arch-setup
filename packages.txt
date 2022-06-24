@@ -1,0 +1,103 @@
+# Pacman
+alacritty
+amd-ucode
+autoconf
+automake
+autorandr
+base
+binutils
+bison
+blueman
+bluez
+bluez-utils
+dunst
+efibootmgr
+fakeroot
+feh
+file
+findutils
+flameshot
+flex
+gawk
+gcc
+gettext
+git
+gnome-themes-extra
+grep
+groff
+grub
+gst-plugin-pipewire
+gtk-engine-murrine
+gtk4
+gzip
+htop
+i3-gaps
+i3blocks
+i3lock
+i3status
+iwd
+libpulse
+libtool
+libva-mesa-driver
+light
+lightdm
+lightdm-gtk-greeter
+linux
+linux-firmware
+lxappearance
+lxrandr-gtk3
+m4
+make
+nano
+neofetch
+network-manager-applet
+networkmanager
+pacman
+patch
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+pkgconf
+polybar
+postgresql
+pulseaudio-alsa
+python-pip
+sed
+smartmontools
+spotifyd
+sudo
+texinfo
+unzip
+vim
+vulkan-radeon
+wget
+which
+wireless_tools
+wireplumber
+xclip
+xdg-user-dirs
+xdg-utils
+xf86-video-amdgpu
+xf86-video-ati
+xorg-server
+xorg-xinit
+xorg-xinput
+zathura
+zathura-pdf-mupdf
+zram-generator
+
+
+# AUR
+catppuccin-gtk-theme 0.1.4-1
+github-cli-git 2.13.0.r4.gcacff4ad-1
+google-chrome 103.0.5060.53-1
+ly 0.5.3-0
+pacmixer 0.6.3-4
+picom-ibhagwan-git 1578_Next.297.gc4107bb_2021.11.03-1
+rbenv 1.2.0-1
+spotify-tui 0.25.0-2
+ulauncher 5.14.4-1
+visual-studio-code-bin 1.68.1-1
+yay-git 11.2.0.r2.g0fdfe79-1
+zulip-desktop 5.9.3-1
