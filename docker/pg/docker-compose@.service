@@ -1,0 +1,16 @@
+# /etc/systemd/system/docker-compose@.service
+
+[Unit]
+Description=%i service with docker compose
+PartOf=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+WorkingDirectory=/etc/docker/compose/%i
+ExecStart=/bin/docker-compose up -d --remove-orphans
+ExecStop=/bin/docker-compose down
+
+[Install]
+WantedBy=multi-user.target
