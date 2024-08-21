@@ -1,4 +1,5 @@
 # /etc/systemd/system/docker-compose@.service
+# activate by running `systemctl status docker-compose@pg.service`
 
 [Unit]
 Description=%i service with docker compose
@@ -9,8 +10,8 @@ After=docker.service
 Type=oneshot
 RemainAfterExit=true
 WorkingDirectory=/etc/docker/compose/%i
-ExecStart=/bin/docker-compose up -d --remove-orphans
-ExecStop=/bin/docker-compose down
+ExecStart=docker compose up -d --remove-orphans
+ExecStop=docker compose down
 
 [Install]
 WantedBy=multi-user.target
